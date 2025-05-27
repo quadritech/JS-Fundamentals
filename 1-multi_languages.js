@@ -8,6 +8,4 @@ let scrpits = "C is fun"
 let scrpits1 = "Python is cool"
 let scrpits2 = "JavaScript is amazing"
 
-console.log (scrpits);
-console.log(scrpits1);
-console.log(scrpits2);
+console.log (scrpits + "\n" + scrpits1 + "\n" + scrpits2);
