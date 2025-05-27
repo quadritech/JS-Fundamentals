@@ -2,10 +2,6 @@
 
 let num = process.argv;
 
-num = ["No argument", "Argument found", "Arguments found"]
-for (let i = 0; i < num.length; i++) {
-    console.log(num[i]);
-}
 if (num.length === 0){
     console.log("No argument");
 }else if (num.length === 1){
@@ -14,3 +10,17 @@ if (num.length === 0){
     console.log("Arguments found");
 }
 
+
+/*const printArgumentsMessage = () => {
+    const numArgs = process.argv.length - 2; // Subtract 2 to exclude node and script path
+
+    if (numArgs === 0) {
+        console.log("No argument");
+    } else if (numArgs === 1) {
+        console.log("Argument found");
+    } else {
+        console.log("Arguments found");
+    }
+};
+
+printArgumentsMessage();*/
