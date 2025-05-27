@@ -1,6 +1,6 @@
 //This is a special array in Node.js that holds all the command-line arguments and slice is used to skip the first 2 arg
 
-const num = process.argv.slice(2);
+const num = process.argv;
 
 if (num === 0){
     console.log("No argument");
