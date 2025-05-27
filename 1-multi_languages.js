@@ -5,7 +5,7 @@ The third line: “JavaScript is amazing”
 */
 
 let scrpits = "C is fun"
-let scrpits1 = "python is cool"
+let scrpits1 = "Python is cool"
 let scrpits2 = "JavaScript is amazing"
 
 console.log (scrpits);
