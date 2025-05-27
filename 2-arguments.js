@@ -1,4 +1,4 @@
-let num = process.argv;
+/*let num = process.argv;
 
 if (num.length === 0) {
     console.log("No argument");
@@ -6,4 +6,11 @@ if (num.length === 0) {
     console.log("Argument found");
 }else {
     console.log("Arguments found");
-}
+}*/
+
+
+let num = ["No argument", "Argument found", "Arguments found"]
+
+num.forEach(function(Arguments){
+    console.log(Arguments);
+})
