@@ -1,5 +1,4 @@
 /*let num = process.argv;
-
 if (num.length === 0) {
     console.log("No argument");
 }else if (num.length === 1) {
@@ -8,9 +7,17 @@ if (num.length === 0) {
     console.log("Arguments found");
 }*/
 
+let num = process.argv.slice(2); // Get only user-passed arguments
 
-let num = ["No argument", "Argument found", "Arguments found"]
+if (num.length === 0) {
+    console.log("No argument");
+} else if (num.length === 1) {
+    console.log("Argument found");
+} else {
+    console.log("Arguments found");
+}
 
-num.forEach(function(Arguments){
-    console.log(Arguments);
-})
+// Print each argument passed
+for (let i = 0; i < num.length; i++) {
+    console.log(num[i]);
+}
