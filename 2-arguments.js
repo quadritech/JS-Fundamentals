@@ -16,8 +16,3 @@ if (num.length === 0) {
 } else {
     console.log("Arguments found");
 }
-
-// Print each argument passed
-for (let i = 0; i < num.length;) {
-    console.log(num[i]);
-}

@@ -1,4 +1,5 @@
-const arg1 = process.argv[2];
-const arg2 = process.argv[3];
+const args = process.argv.slice(2);
+const first = args[0] ?? 'undefined';
+const second = args[1] ?? 'undefined';
 
-console.log(`${arg1} is ${arg2}`);
+console.log(`${first} is ${second}`);
