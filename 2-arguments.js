@@ -18,6 +18,6 @@ if (num.length === 0) {
 }
 
 // Print each argument passed
-for (let i = 0; i < num.length; i++) {
+for (let i = 0; i < num.length;) {
     console.log(num[i]);
 }
